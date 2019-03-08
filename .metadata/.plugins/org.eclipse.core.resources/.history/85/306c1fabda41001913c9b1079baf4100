@@ -1,0 +1,25 @@
+package Q05;
+
+public class Retangulo implements FormaGeometrica{
+	private double base, altura;
+
+	public Retangulo(double base, double altura) {
+		super();
+		this.base = base;
+		this.altura = altura;
+	}
+
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double perimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

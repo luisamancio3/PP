@@ -1,0 +1,9 @@
+package Q05;
+
+public class Quadrado extends Quadrilatero{
+	
+	public Quadrado(double lado) {
+		super();
+		this.lado = lado;
+	}
+}

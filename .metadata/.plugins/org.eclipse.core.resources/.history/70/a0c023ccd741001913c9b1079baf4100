@@ -1,0 +1,15 @@
+package Q04;
+
+public class App {
+	public static void main(String[] args) {
+		Bits b1 = new Bits(10);
+		Bits b2 = new Bits(10);
+		for (int i = 0; i < 10; i++) {
+			b1.setBit((char) i);
+		}
+		
+		for (int i = 10; i < 0; i-) {
+			b1.setBit((char) i);
+		}
+	}
+}

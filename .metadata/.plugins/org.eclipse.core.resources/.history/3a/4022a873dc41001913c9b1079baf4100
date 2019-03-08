@@ -1,0 +1,14 @@
+package Q05;
+
+public class Quadrado extends Quadrilatero{
+	
+	public Quadrado(double lado) {
+		super(lado, lado, lado, lado);
+	}
+
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

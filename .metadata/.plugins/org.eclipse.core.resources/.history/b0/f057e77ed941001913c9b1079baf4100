@@ -1,0 +1,7 @@
+package Q05;
+
+public class FormaGeometrica {
+
+	public int area();
+	public int perimetro();
+}

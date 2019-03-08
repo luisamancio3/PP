@@ -1,0 +1,55 @@
+package Q04;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bits {
+	private List<Boolean> bits;
+
+	public Bits(String bits) {
+		this.toString(bits);
+	}
+
+	
+	private void toString (String b) {
+		for (String s : b.split("")) {
+			this.bits.add(s.equals("1"));
+		}
+		
+	}
+
+	public String getBits() {
+		StringBuilder s = new StringBuilder();
+		
+		for (Boolean b : this.bits) {
+			s.append(b == true ? '1' : '0');
+		}
+		
+		return s.toString();
+	}
+
+	public void setBits(String bits) {
+		this.toString(bits);
+	}
+	
+	public char getBit(int index) {
+		return this.bits.get(index) == true ? '1' : '0';
+	}
+
+	public void setBit(String s, int index) {
+		this.bits.add(index, s.equals("1") ? true : false);
+	}
+	
+	public String and(String s) {
+		s = toBoolean(s);
+	}
+
+
+	private String toBoolean(String s) {
+		ArrayList<Boolean> aux = new ArrayList<Boolean>();
+		
+		for (Char c : s.split("")) {
+			
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package Q05;
+
+public class Retangulo implements FormaGeometrica{
+	private double base, altura;
+
+	public Retangulo(double base, double altura) {
+		super();
+		this.base = base;
+		this.altura = altura;
+	}
+	
+	
+}

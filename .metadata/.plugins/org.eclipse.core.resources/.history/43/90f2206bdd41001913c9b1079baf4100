@@ -1,0 +1,27 @@
+package Q05;
+
+import java.util.Iterator;
+import java.util.Vector;
+
+public class App {
+	public static void main(String[] args) {
+		
+		
+		Retangulo r1 = new Retangulo(10, 2.5);
+		Retangulo r2 = new Retangulo(5, 2.5);
+		
+		Quadrado q1 = new Quadrado(5);
+		Quadrado q2 = new Quadrado(4);
+		
+		Circulo c1 = new Circulo(2.5);
+		Circulo c2 = new Circulo(4.5);
+		ArrayList
+		
+		System.out.print("Lados: ");
+		
+		for (int i = 0; i < this.; i++) {
+			
+		}
+		
+	}
+}
