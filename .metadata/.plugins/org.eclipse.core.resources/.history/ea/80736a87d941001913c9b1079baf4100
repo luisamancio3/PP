@@ -1,7 +1,0 @@
-package Q05;
-
-public interface FormaGeometrica {
-
-	public int area();
-	public int perimetro() 
-}
